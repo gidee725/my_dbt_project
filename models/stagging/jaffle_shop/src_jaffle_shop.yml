@@ -18,9 +18,9 @@ sources:
     - name: customers
       columns : 
       - name :  id
-      tests:
-        - not_null
-        - unique
+        tests:
+          - not_null
+          - unique
       freshness: null
         
       
